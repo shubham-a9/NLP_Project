@@ -1,1 +1,3 @@
-# NLP_Project
+# NLP_Project: Neural Machine Translation
+
+The goal of this project was to apply Neural Machine Translation to build a model which can be then be employed in a translation task of our choosing. We started off with a simple idea: converting dates of different human-readable formats to one uniform machine-readable format. For our project, we decided to build a Neural Machine Translation (NMT) model to translate human-readable dates ("25th of May, 2021") into machine-readable dates ("2021-05-25"). We did this by using an attention model combined with a Recurrent Neural Network like LSTM to achieve this task. The dataset was to be a collection of 10000 random, fake dates. The model built would then be fed a set of human-readable dates at the end of the training loop and it would output the equivalent machine-readable dates based on its learning.
